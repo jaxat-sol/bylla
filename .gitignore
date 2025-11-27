@@ -1,37 +1,22 @@
 
-/vendor/
-node_modules/
-npm-debug.log
-yarn-error.log
-
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
-
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
-
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-
-storage/*.key
-.env
+# Laravel default ignores
+/vendor
+/node_modules
+/.env
+/.idea
+/.vscode
+/public/hot
+/public/storage
+/storage/*.key
 Homestead.yaml
 Homestead.json
-/.vagrant
-.phpunit.result.cache
-
-/public/build
-/storage/pail
+npm-debug.log
+yarn-error.log
 .env.backup
-.env.production
-.phpactor.json
-auth.json
 
 .env
-public/webcron.php
+public/storage
+public/vendor/
+resources/views/vendor/
 storage/
 vendor/
-
